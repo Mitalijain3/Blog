@@ -1,0 +1,54 @@
+.top{
+    width: 100%;
+    height: 50px;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comforter', cursive;
+    background-color: white;
+    z-index: 10;
+}
+.top-left,.top-right{
+    flex:3;
+}
+.moon{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.top-center{
+    flex:6;
+}
+.top-list{
+    display: flex;
+    justify-content: center;
+}
+.top-list-item{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 300;
+
+}
+.top-list-item:hover{
+    color:dimgrey;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.search-icon{
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #666;
+
+}
